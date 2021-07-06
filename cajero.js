@@ -1,3 +1,15 @@
+var dinero = 0;
+var saldo = 0;
+
+class Billete
+{
+  constructor(v,c)
+  {
+    this.valor = v;
+    this.cantidad = c;
+  }
+}
+
 var caja = [];
 var entregado = [];
 
